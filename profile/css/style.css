@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+
+body{
+  color: #383e45;
+  font-size: 0.9rem;
+  /* ブラウザのフォントサイズの90%の大きさをサイトで表示 */
+}
+
+img {
+    max-width: 100%;
+    /* 親要素の幅より画像が大きい場合、自動的に縮小されて親要素内に収まるように（超えないようにする） */
+  }
+
+.wrapper{
+    max-width: 960px;
+    padding: 0 4%;
+    margin: 0 auto;
+}
