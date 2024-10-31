@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+
+.body{
+  background-color: rgba(248, 252, 193, 0.774);
+}
+
+header{
+  background-color: rgb(231, 134, 7);
+}
+
+main{
+background-color:rgb(248, 184, 100);
+}
+
+.wrapper{
+  background-color:rgb(85, 117, 177);
+  width: 80%;
+  /* width: 500px; */
+  max-width: 200px;
+}
+
+footer{
+  background-color:rgb(219, 129, 10);
+}
