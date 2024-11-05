@@ -54,7 +54,7 @@ li{
 }
 
 /* nav{
-　ここもいらないらしい
+　ここもいらない
   width:149.39px;
   height: 41px;
 } */
@@ -62,7 +62,7 @@ li{
 nav ul{
   display: flex;
   padding:10px 0 ;
-  /* height: 100%; 　いらないらしい*/
+  /* height: 100%; 　いらない*/
 }
 
 nav ul li{
@@ -87,7 +87,7 @@ nav ul li{
   margin-bottom: 80px;
 }
 
- /* ここ注意　imgに直接高さと幅指定が多いのか？ */
+ /* ここ注意　imgに直接高さと幅指定が多い？ */
 #mainvisual img{
   object-fit: cover; 
    /* ここにいれる*/
@@ -99,7 +99,7 @@ nav ul li{
 
 @media screen and (max-width: 600px) {
  
-    /* Mainvisual　★ここよくわからない..... */
+    /* Mainvisual　★ */
     #mainvisual img {
       height: calc(100vh - 60px);
     }
@@ -142,7 +142,7 @@ nav ul li{
 
 .about-container .text{
   /* width:403.2px ;
-  height:107px ; 　いらないらしい*/
+  height:107px ; 　いらない*/
   text-align: left;
 }
 
@@ -172,7 +172,7 @@ nav ul li{
 
 @media screen and (max-width: 600px) {
   /*-------------------------------------------
-　幅や高さの実装部分がやはりいまいちわからない
+　★
   -------------------------------------------*/
   #bicycle ul {
     flex-direction: column;
